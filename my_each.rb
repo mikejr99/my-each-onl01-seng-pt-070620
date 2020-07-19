@@ -1,8 +1,8 @@
-def my_each (words)
+def my_each (word)
   i = 0 
-  while i < words.length
-    yield words[i]
+  while i < word.length
+    yield word[i]
     i+1
-    puts words
+    puts word
   end
 end
