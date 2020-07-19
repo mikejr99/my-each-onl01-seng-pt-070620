@@ -6,4 +6,4 @@ def my_each (word)
   end
 end
 
-my_each{|word| puts word}
+my_each puts word
