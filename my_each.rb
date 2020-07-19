@@ -3,6 +3,7 @@ def my_each (word)
   while i < word.length
     yield word[i]
     i+1
-    puts word
   end
 end
+
+my_each(word){|word| puts word}
